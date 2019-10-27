@@ -32,7 +32,7 @@ gem 'bcrypt'
 #fake data for seeds
 gem 'faker'
 #preconfigured styles
-gem 'bootstrap', '~> 4.0.0'
+gem 'bootstrap', '~> 4.3.1'
 gem 'jquery-rails'
 
 group :development, :test do
