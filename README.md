@@ -9,9 +9,10 @@ Users can create an account and add new travel hacks by destination, like and co
 ## Installing and Accessing the Program
 1. Clone the repository 
 2. Install by running `bundle install` in the root directory
-3. Get the Rails server up and running with `rails s` in the terminal
-4. Go to http://localhost:3000
-5. Get started by viewing destinations or creating an account
+3. Run `rails db:migrate` and then `rails db:seed`
+4. Get the Rails server up and running with `rails s` in the terminal
+5. Go to http://localhost:3000
+6. Get started by viewing destinations or creating an account
  
 ### Prequisites
 - Ruby installed
