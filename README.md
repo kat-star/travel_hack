@@ -14,7 +14,7 @@ Users can create an account and add new travel hacks by destination, like and co
 5. Go to http://localhost:3000
 6. Get started by viewing destinations or creating an account
  
-### Prequisites
+### Prerequisites
 - Ruby installed
 - Bundler installed
 
