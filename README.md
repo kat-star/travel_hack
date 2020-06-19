@@ -1,6 +1,8 @@
 ## Project Background
 Travel Hack is a full-stack Ruby on Rails application with the idea of connecting travelers from across the globe and sharing travel "hacks" for a particular destination. Technical topics that our project covers includes Rails, Bootstrap, object-oriented Ruby, SQLite, and Active Record.
 
+A live demo is [hosted on Heroku](https://travel-hack-app.herokuapp.com).
+
 ![GIF of Travel Hack](./public/images/travel-hack.gif "Travel Hack")
 
 ## Features
