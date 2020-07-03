@@ -41,14 +41,12 @@
 <br>
 <h3>Recent <%= @destination.city %> Hacks</h3>
 <% @destination.five_recent.each do |hack| %>
-  <% cache hack do %>
     <h4><%= link_to hack.title, hack %></h4>
     <p><%= hack.category %></p>
     <p><%= hack.created_at.strftime("%m/%d/%Y") %></p>
     <p><%= hack.content %></p>
     <p>Submitted by <%= hack.user.name %></p>
     <br>
-  <% end %>
 <% end %>
 
 
